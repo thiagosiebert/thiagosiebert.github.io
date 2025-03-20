@@ -1,0 +1,76 @@
+body {
+    background-color: black;
+    color: #8B0000; /* Vermelho escuro */
+    font-family: sans-serif;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .personagem {
+    background-color: #222;
+    border: 1px solid #8B0000; /* Vermelho escuro */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 300px;
+  }
+  
+  .atributos {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-gap: 5px;
+  }
+  
+  .grid-item {
+    width: 20px;
+    height: 20px;
+    background-color: white; /* Fundo branco */
+    border: 1px solid #8B0000; /* Vermelho escuro */
+    cursor: pointer;
+    text-align: center;
+    line-height: 20px;
+  }
+  
+  .grid-item.slash,
+  .grid-item.x{
+    background-color: white; /* Itens pretos */
+    color: black;
+  }
+
+  .grid-item.full {
+    background-color: black; /* Itens pretos */
+    color: black;
+  }
+  
+  
+  .furia-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 5px;
+  }
+  
+  .furia-item {
+    width: 20px;
+    height: 20px;
+    background-color: white; /* Fundo branco */
+    border: 1px solid #8B0000; /* Vermelho escuro */
+    cursor: pointer;
+    text-align: center;
+    line-height: 20px;
+  }
+  
+  .furia-item.slash {
+    background-color: black; /* Itens pretos */
+    color: white;
+  }
+  
